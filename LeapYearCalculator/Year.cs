@@ -8,6 +8,6 @@ public class _Year{
     public bool LeapYear { get; set; }
     public override string ToString()//overwrite tostring function for CSV output
     {
-        return $"{Year},{(LeapYear ? "yes" : "no")}";
+        return $"{Year},{(LeapYear ? "Yes" : "No")}";
     }
 }
